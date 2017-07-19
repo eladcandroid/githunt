@@ -1,7 +1,8 @@
 @font-face {
     font-family: "montserrat-regular";
     src: url("../fonts/Montserrat-Regular.woff") format('woff');
-    font-weight: normal;    /* font-weight of 400; */
+    font-weight: normal;
+    /* font-weight of 400; */
 }
 
 @font-face {
@@ -28,8 +29,8 @@ body {
     padding-top: 1px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    background: #ECE1E1;
-    color: #333;
+    background: black;
+    color: white;
 }
 
 a {
@@ -72,7 +73,8 @@ a {
     top: 0;
     right: 0;
     display: block;
-    width: 100%;;
+    width: 100%;
+    ;
     z-index: -5;
 }
 
@@ -122,10 +124,10 @@ div.container {
 
 .content-item {
     display: block;
-    width: 295px;
+    width: 100%;
     box-sizing: border-box;
     padding: 15px;
-    height: 200px;
+    height: auto;
     background: #fefefe;
     float: left;
     position: relative;
@@ -149,18 +151,17 @@ div.container {
     overflow: hidden;
     -webkit-line-clamp: 6;
     -webkit-box-orient: vertical;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 20px;
 }
 
 .content-item .footer {
-    position: absolute;
-    bottom: 12px;
+    padding-top: 25px;
 }
 
 div.footer span.footer-stat {
     margin: 0 10px 0 0;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .batch-head {
@@ -190,6 +191,7 @@ div.footer span.footer-stat {
 }
 
 .date-head {
+    color: white;
     margin: -40px 20px 40px 0;
     padding: 8px 0px 8px 10px;
     font-weight: normal;

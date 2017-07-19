@@ -40,6 +40,7 @@ function HubTab() {
         var html = '';
 
         $(repositories).each(function (index, repository) {
+            console.log('repository', repository);
             // Make the name and description XSS safe
             var repFullName = $('<div>').text(repository.full_name).html();
             var repFullDesc = $('<div>').text(repository.description).html();
@@ -63,6 +64,9 @@ function HubTab() {
                 '<span class="footer-stat">' +
                 '<i class="fa fa-star-o"></i>' +
                 repository.stargazers_count +
+                '</span>' +
+                '<span class="footer-stat">' +
+                (repository.language ? repository.language : '') +
                 '</span>' +
                 '</div>' +
                 '</div>';
