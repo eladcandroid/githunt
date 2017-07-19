@@ -35,7 +35,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #333;
+    color: white;
 }
 
 .btn {
@@ -128,13 +128,13 @@ div.container {
     box-sizing: border-box;
     padding: 15px;
     height: auto;
-    background: #fefefe;
+    background: #383838;
     float: left;
     position: relative;
     margin: 0 20px 20px 0px;
     border-radius: 4px;
     box-shadow: none;
-    color: #333;
+    color: white;
     position: relative;
     overflow: hidden;
 }
